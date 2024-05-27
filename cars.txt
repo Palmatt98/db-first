@@ -1,0 +1,14 @@
+CARS
+_________
+
+id								- PRIMARY_KEY(NOT NULL, UNIQUE) - AUTO INCREMENT
+model							- VARCHAR(255) - NOT NULL
+year_registration			- DATE - NOT NULL
+km_travelled				- DECIMAL(6, 0) -NOT NULL
+description					- TEXT
+genre							- VARCHAR(10)
+price							- DECIMAL(6, 2)
+discount						- FLOAT (4,2)
+optionals					- TEXT
+eniger_power_supply		- VARCHAR(25)
+past_owners					- VARCHAR(25)
