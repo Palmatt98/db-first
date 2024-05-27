@@ -9,6 +9,8 @@ description					- TEXT
 genre							- VARCHAR(10)
 price							- DECIMAL(6, 2)
 discount						- FLOAT (4,2)
-optionals					- TEXT
-eniger_power_supply		- VARCHAR(25)
-past_owners					- VARCHAR(25)
+optionals					- TEXT - NOT NULL
+engie_power_supply		- VARCHAR(25)
+hp								- VARCHAR(15)
+kw								- VARCHAR(15)
+past_owners					- TINYINT - NOT NULL - DEFAULT(1)
